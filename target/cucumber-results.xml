@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.692546">
+<testcase classname="Searching a product" name="" time="52.692546">
+<system-out><![CDATA[Given Open the Browser and start RS application.............................passed
+When enter "munesh51" and "12345678"........................................passed
+Then user should login successfully.........................................passed
+When enter a product details in search......................................passed
+Then search product details page displayed..................................passed
+Then purchase the product...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

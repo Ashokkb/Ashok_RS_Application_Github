@@ -1,0 +1,12 @@
+@featureTest
+Feature: Searching a product
+
+  Background:                                       [90m# features/SearchPurchaseProduct.feature:4[0m
+    [32mGiven [0m[32mOpen the Browser and start RS application[0m [90m# LoginSmokeTesting.open_the_Browser_and_start_RS_application()[0m
+    [32mWhen [0m[32menter "[0m[32m[1mmunesh51[0m[32m" and "[0m[32m[1m12345678[0m[32m"[0m            [90m# LoginSmokeTesting.enter_and(String,String)[0m
+    [32mThen [0m[32muser should login successfully[0m             [90m# LoginSmokeTesting.user_should_login_successfully()[0m
+
+  Scenario:                                    [90m# features/SearchPurchaseProduct.feature:9[0m
+    [32mWhen [0m[32menter a product details in search[0m     [90m# SearchPurchaseProduct.enter_a_product_details_in_search()[0m
+    [32mThen [0m[32msearch product details page displayed[0m [90m# SearchPurchaseProduct.search_product_details_page_displayed()[0m
+    [32mThen [0m[32mpurchase the product[0m                  [90m# SearchPurchaseProduct.purchase_the_product()[0m
