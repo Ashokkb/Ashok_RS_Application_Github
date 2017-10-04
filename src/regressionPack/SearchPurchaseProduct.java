@@ -23,15 +23,7 @@ public class SearchPurchaseProduct extends utility.mydriver {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		 ( ( JavascriptExecutor ) driver )
          .executeScript( "window.onbeforeunload = function(e){};" );
-		/*try
-		{
-		Alert alert = driver.switchTo().alert();
-		alert.accept();
-		}
-		catch (NoSuchElementException e){
-			System.out.println(e);
-		}*/
-		
+				
 	   driver.findElement(pages.loginHomePage.LHNsearch).sendKeys(Keys.ENTER);
 	   driver.findElement(pages.loginHomePage.LHNsubsearch).click();
 	   driver.findElement(pages.loginHomePage.battery).click();
@@ -40,12 +32,15 @@ public class SearchPurchaseProduct extends utility.mydriver {
 	
 	@Then("^purchase the product$")
 	public void purchase_the_product() throws Throwable {
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	   	driver.findElement(pages.loginHomePage.addtoBasket).click();
 		driver.findElement(pages.loginHomePage.basket).click();
 		driver.findElement(pages.loginHomePage.remove).click();
 		driver.findElement(pages.loginHomePage.confirmremovepopup).isDisplayed();
 		driver.findElement(pages.loginHomePage.confirmremovepopup).click();
+		
+		 ( ( JavascriptExecutor ) driver )
+         .executeScript( "window.onbeforeunload = function(e){};" );
 		Thread.sleep(5000);
 		driver.findElement(pages.loginHomePage.logout).click();
 		driver.close();

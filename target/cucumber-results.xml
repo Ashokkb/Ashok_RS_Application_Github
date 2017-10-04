@@ -1,11 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.692546">
-<testcase classname="Searching a product" name="" time="52.692546">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="176.99185">
+<testcase classname="Use AllProducts Search and Purchase Item" name="Purchase the Item" time="49.826019">
+<system-out><![CDATA[Given Open the Browser and start RS application.............................passed
+When enter "munesh51" and "12345678"........................................passed
+Then user should login successfully.........................................passed
+When Item is searched in AllProducts........................................passed
+Then click on special offers in product details.............................passed
+Then Buy the product........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching a product" name="" time="46.174339">
 <system-out><![CDATA[Given Open the Browser and start RS application.............................passed
 When enter "munesh51" and "12345678"........................................passed
 Then user should login successfully.........................................passed
 When enter a product details in search......................................passed
 Then search product details page displayed..................................passed
 Then purchase the product...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing Login Sanity Scenario" name="Login to the application" time="20.964257">
+<system-out><![CDATA[Given Open the Browser and start RS application.............................passed
+When enter "mike11_2017" and "12345678".....................................passed
+Then user should login successfully.........................................passed
+Then click on Logout Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing Login Sanity Scenario" name="Login to the application 2" time="18.732175">
+<system-out><![CDATA[Given Open the Browser and start RS application.............................passed
+When enter "munesh51" and "12345678"........................................passed
+Then user should login successfully.........................................passed
+Then click on Logout Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing Login Sanity Scenario" name="Login to the application 3" time="19.187656">
+<system-out><![CDATA[Given Open the Browser and start RS application.............................passed
+When enter "munesh67" and "12345678"........................................passed
+Then user should login successfully.........................................passed
+Then click on Logout Button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration page" name="New User Registration" time="22.107404">
+<system-out><![CDATA[Given Access RS application and click on Register button....................passed
+When user enters all valid details and clicks on Register button............passed
+Then user registers successfully............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

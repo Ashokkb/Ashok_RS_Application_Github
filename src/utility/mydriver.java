@@ -29,6 +29,7 @@ public class mydriver {
 	}
 	
 	else if(config.browser.brower.equalsIgnoreCase("firefox")){
+		System.setProperty("webdriver.gecko.driver","C://Automation//workspace//Library//geckodriver-v0.19.0-win64//geckodriver.exe");
 		driver = new FirefoxDriver();
 	}
 	

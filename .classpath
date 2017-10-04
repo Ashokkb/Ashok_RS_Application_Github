@@ -49,5 +49,6 @@
 	<classpathentry kind="lib" path="C:/Automation/workspace/RS_Automation_Project/Library/selenium-java-3.5.3/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Automation/workspace/RS_Automation_Project/Library/selenium-java-3.5.3/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Automation/workspace/RS_Automation_Project/Library/selenium-java-3.5.3/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/workspace/RS_Automation_Project/Library/cucumber-html-0.2.3.jar/cucumber-html-0.2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

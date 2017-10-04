@@ -13,7 +13,6 @@ public class config {
 	}
 	
 	public static class register{
-		
 		public static String username = sname("munesh");
 		public static String password = "12345678";
 		public static String retypepassword = "12345678";
@@ -21,13 +20,13 @@ public class config {
 		public static String surname = "henry";
 		public static String telephone = "1234567890";
 		public static String emailId= sname("mikehenry")+"@gmail.com";
-		public static String jobtitle = "tester";
-		
+		public static String jobtitle = "tester";	
 	}
 	
 	public static class search{
 		
 		public static String searchkeyword = "Batteries";
+		public static String searchword = "BQ Witbox 2 3D Printer";
 	}
 	
 	public static String  sname(String fname){
